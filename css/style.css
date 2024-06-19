@@ -12,8 +12,7 @@ main {
 
 .col-4 {
     flex-basis:calc((100% / 12) * 4);
-    background-color: rgb(237, 121, 12);
-    border: 1px solid #fff;
+    background-color: rgb(32, 142, 238);
     height: 75px;
     color:white;
     display:flex;
@@ -27,7 +26,7 @@ main {
     justify-content: space-between;
 }
 .sidebar {
-    background-color: aqua;
+    background-color: rgb(27, 33, 33);
     height: calc(100vh - 75px);
     width: 75px;
 }
