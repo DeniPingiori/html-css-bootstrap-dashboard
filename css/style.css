@@ -3,3 +3,29 @@
     padding:0;
     box-sizing:border-box;
 }
+header {
+    height: 75px;
+}
+main {
+    display:flex;
+}
+.sidebar {
+    background-color: aqua;
+    height: calc(100vh - 75px);
+    width: 75px;
+}
+
+#main-content {
+    background-color: bisque;
+    height: calc(100vh - 75px);
+    width: calc(100vw - 75px);
+}
+
+@media screen and (min-width: 578px) {
+    .sidebar {
+        width: 200px;
+    }
+    #main-content {
+        width: calc(100vw - 200px);
+    }
+}
