@@ -9,6 +9,23 @@ header {
 main {
     display:flex;
 }
+
+.col-4 {
+    flex-basis:calc((100% / 12) * 4);
+    background-color: rgb(237, 121, 12);
+    border: 1px solid #fff;
+    height: 75px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex: column;
+    justify-content: space-between;
+}
 .sidebar {
     background-color: aqua;
     height: calc(100vh - 75px);
